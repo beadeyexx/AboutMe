@@ -1,0 +1,32 @@
+body {
+    background-image: url("1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.main {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+}
+.faves{
+  display: grid;
+  grid-template-columns: 1fr 1fr 100px;
+  column-gap: 10px;
+  margin-left: 150px;
+  padding: 20px;
+}
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+}
+h3{
+  text-align: center;
+}
+ul {
+  text-align: left;
+}
